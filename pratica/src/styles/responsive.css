@@ -1,0 +1,98 @@
+body {
+    background-image: url("./../imgs/fundo-roxo-de-tecnologia_23-2149118853.avif");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  /* Define a cor de fundo do cabeçalho */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Define o estilo do título */
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Define o estilo dos botões */
+  .btn {
+    background-color: #8a3ab9;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-left: 10px;
+    transition: background-color 0.5s ease;
+  }
+  
+  /* Define o estilo do botão 'Sobre' */
+  .btn:first-of-type {
+    background-color: #6a2c8c;
+  }
+  
+  .btn:hover {
+    background-color: #c39bd3;
+  }
+  
+  .img {
+    width: 100%;
+    max-width: 370px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+  }
+  
+  .contentText {
+    text-align: center;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 50px;
+  }
+  
+  .contentText p {
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .menu-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .menu-lateral .icone {
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .menu-lateral .icone:hover {
+    transform: scale(1.2);
+  }
+    

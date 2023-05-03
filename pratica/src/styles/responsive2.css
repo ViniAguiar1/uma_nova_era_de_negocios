@@ -1,0 +1,36 @@
+@media (max-width: 425px) {
+    body {
+      background-image: none; /* remove a imagem de fundo */
+      background-color: #3b0c55; /* define uma cor de fundo */
+    }
+  
+    .header {
+      padding: 10px; /* diminui o padding do cabeçalho */
+    }
+  
+    .title {
+      font-size: 24px; /* diminui o tamanho do título */
+    }
+  
+    .conteiner {
+      flex-direction: column; /* altera a direção do flexbox para vertical */
+      width: 90%; /* diminui a largura do container */
+      margin: 0 auto; /* centraliza o container na tela */
+    }
+  
+    .conteiner .contentText p {
+      font-size: 18px; /* diminui o tamanho do texto */
+      line-height: 1.4; /* diminui o espaçamento entre linhas */
+    }
+    .menu-lateral{
+		position: static;
+		min-height: auto;
+		width: 100%;
+		margin-top: 50px;
+	}
+	.menu-lateral ul{
+		flex-direction: row;
+        text-decoration: none;
+	}
+  }
+  
